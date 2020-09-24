@@ -67,6 +67,7 @@
 	}
 	.home_banner_area .banner_inner .banner_content .media .media-body {
 		margin-top: 30px;
+		margin-left: -10px !important;
 	}
 	.home_banner_area .box_1620 {
 		bottom: -130px;

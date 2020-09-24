@@ -2582,6 +2582,10 @@ h6 {
         color: rgba(255, 255, 255, 0.75);
         margin-bottom: 0px;
         padding-top: 20px; }
+
+        .media-body{
+          margin-left: 40px;
+        }
     .tabs_inner .tab-content .tab-pane .list li .media .media-body h4 {
       color: #fff;
       font-size: 21px;
