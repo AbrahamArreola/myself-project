@@ -46,7 +46,7 @@
 							<li class="nav-item"><a class="nav-link" href="#education_panel">Educación</a></li>
 							<li class="nav-item"><a href="#experience" class="nav-link">Experiencia</a></li>
 							<li class="nav-item"><a href="#last_project" class="nav-link">último proyecto</a></li>
-							<li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+							<li class="nav-item"><a class="nav-link" href="#contact_me">Contacto</a></li>
 						</ul>
 					</div>
 				</div>
@@ -246,7 +246,7 @@
 									</div>
 									<div class="media-body">
 										<h4>Udemy</h4>
-										<p>Node: de cero a experto</p>
+										<p>Python and Django Full Stack Web Developer Bootcamp</p>
 									</div>
 								</div>
 							</li>
@@ -258,7 +258,7 @@
 									</div>
 									<div class="media-body">
 										<h4>Udemy</h4>
-										<p>Python and Django Full Stack Web Developer Bootcamp</p>
+										<p>Node: de cero a experto</p>
 									</div>
 								</div>
 							</li>
@@ -367,57 +367,40 @@
 	</section>
 	<!--================End Home Gallery Area =================-->
 
-	<!--================Testimonials Area =================-->
-	<section class="testimonials_area p_120">
+	<!--================Contact me Area =================-->
+	<section class="contact_area p_120" id="contact_me">
 		<div class="container">
 			<div class="main_title">
-				<h2>Testimonials</h2>
-				<p>If you are looking at blank cassettes on the web, you may be very confused at the difference in
-					price. You may see some for as low as $.17 each.</p>
+				<h2>Contáctame</h2>
 			</div>
-			<div class="testi_inner">
-				<div class="testi_slider owl-carousel">
-					<div class="item">
-						<div class="testi_item">
-							<p>As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth.
-								If you think about it, you travel across her face</p>
-							<h4>Fanny Spencer</h4>
-							<a href="#"><i class="fa fa-star"></i></a>
-							<a href="#"><i class="fa fa-star"></i></a>
-							<a href="#"><i class="fa fa-star"></i></a>
-							<a href="#"><i class="fa fa-star"></i></a>
-							<a href="#"><i class="fa fa-star-half-o"></i></a>
+			<div class="row">
+				<div class="col-lg-12">
+					<form class="row contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+						<div class="col-md-6">
+							<div class="form-group">
+								<input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
+							</div>
+							<div class="form-group">
+								<input type="email" class="form-control" id="email" name="email" placeholder="Enter email address">
+							</div>
+							<div class="form-group">
+								<input type="text" class="form-control" id="subject" name="subject" placeholder="Enter Subject">
+							</div>
 						</div>
-					</div>
-					<div class="item">
-						<div class="testi_item">
-							<p>As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth.
-								If you think about it, you travel across her face</p>
-							<h4>Fanny Spencer</h4>
-							<a href="#"><i class="fa fa-star"></i></a>
-							<a href="#"><i class="fa fa-star"></i></a>
-							<a href="#"><i class="fa fa-star"></i></a>
-							<a href="#"><i class="fa fa-star"></i></a>
-							<a href="#"><i class="fa fa-star-half-o"></i></a>
+						<div class="col-md-6">
+							<div class="form-group">
+								<textarea class="form-control" name="message" id="message" rows="1" placeholder="Enter Message"></textarea>
+							</div>
 						</div>
-					</div>
-					<div class="item">
-						<div class="testi_item">
-							<p>As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth.
-								If you think about it, you travel across her face</p>
-							<h4>Fanny Spencer</h4>
-							<a href="#"><i class="fa fa-star"></i></a>
-							<a href="#"><i class="fa fa-star"></i></a>
-							<a href="#"><i class="fa fa-star"></i></a>
-							<a href="#"><i class="fa fa-star"></i></a>
-							<a href="#"><i class="fa fa-star-half-o"></i></a>
+						<div class="col-md-12 text-right">
+							<button type="submit" value="submit" class="btn submit_btn">Send Message</button>
 						</div>
-					</div>
+					</form>
 				</div>
 			</div>
 		</div>
 	</section>
-	<!--================End Testimonials Area =================-->
+	<!--================End Contact me Area =================-->
 
 	<!--================Footer Area =================-->
 	<footer class="footer_area p_120">
@@ -426,7 +409,7 @@
 				<div class="col-lg-5 col-sm-6">
 					<aside class="f_widget ab_widget">
 						<div class="f_title">
-							<h3>About Me</h3>
+							<h3>Acerca de la página</h3>
 						</div>
 						<p>Do you want to be even more successful? Learn to love learning and growth. The more effort
 							you put into improving your skills,</p>
@@ -502,6 +485,8 @@
 	<script src="vendors/counter-up/jquery.counterup.min.js"></script>
 	<script src="js/mail-script.js"></script>
 	<script src="js/theme.js"></script>
+	<script src="js/scrollreveal.min.js"></script>
+	<script src="js/scrollAnimation.js"></script>
 </body>
 
 </html>
