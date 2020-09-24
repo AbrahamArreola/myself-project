@@ -25,7 +25,7 @@
 <body>
 
 	<!--================Header Menu Area =================-->
-	<header class="header_area">
+	<header class="header_area" id="presentation">
 		<div class="main_menu">
 			<nav class="navbar navbar-expand-lg navbar-light">
 				<div class="container box_1620">
@@ -41,27 +41,12 @@
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
 						<ul class="nav navbar-nav menu_nav ml-auto">
-							<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
-							<li class="nav-item"><a class="nav-link" href="about-us.html">About</a></li>
-							<li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
-							<li class="nav-item submenu dropdown">
-								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
-									aria-haspopup="true" aria-expanded="false">Pages</a>
-								<ul class="dropdown-menu">
-									<li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
-									<li class="nav-item"><a class="nav-link" href="elements.html">Elements</a></li>
-								</ul>
-							</li>
-							<li class="nav-item submenu dropdown">
-								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
-									aria-haspopup="true" aria-expanded="false">Blog</a>
-								<ul class="dropdown-menu">
-									<li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-									<li class="nav-item"><a class="nav-link" href="single-blog.html">Blog Details</a>
-									</li>
-								</ul>
-							</li>
-							<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+							<li class="nav-item active"><a class="nav-link" href="#presentation">Presentación</a></li>
+							<li class="nav-item"><a class="nav-link" href="#about_me">Acerca de mí</a></li>
+							<li class="nav-item"><a class="nav-link" href="#education_panel">Educación</a></li>
+							<li class="nav-item"><a href="#experience" class="nav-link">Experiencia</a></li>
+							<li class="nav-item"><a href="#last_project" class="nav-link">último proyecto</a></li>
+							<li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
 						</ul>
 					</div>
 				</div>
@@ -111,7 +96,7 @@
 	<!--================End Home Banner Area =================-->
 
 	<!--================Welcome Area =================-->
-	<section class="welcome_area p_120">
+	<section class="welcome_area p_120" id="about_me">
 		<div class="container">
 			<div class="row welcome_inner">
 				<div class="col-lg-6">
@@ -209,21 +194,21 @@
 	<!--================End Welcome Area =================-->
 
 	<!--================My Tabs Area =================-->
-	<section class="mytabs_area p_120">
+	<section class="mytabs_area p_120" id="education_panel">
 		<div class="container">
 			<div class="tabs_inner">
 				<ul class="nav nav-tabs" id="myTab" role="tablist">
 					<li class="nav-item">
 						<a class="nav-link active" id="education-tab" data-toggle="tab" href="#education" role="tab"
-							aria-controls="home" aria-selected="true">Educación</a>
+							aria-controls="education" aria-selected="true">Educación</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" id="courses-tab" data-toggle="tab" href="#courses" role="tab"
-							aria-controls="profile" aria-selected="false">Cursos</a>
+							aria-controls="courses" aria-selected="false">Cursos</a>
 					</li>
 				</ul>
 				<div class="tab-content" id="myTabContent">
-					<div class="tab-pane fade show active" id="education" role="tabpanel" aria-labelledby="home-tab">
+					<div class="tab-pane fade show active" id="education" role="tabpanel" aria-labelledby="education-tab">
 						<ul class="list">
 							<li>
 								<span></span>
@@ -251,7 +236,7 @@
 							</li>
 						</ul>
 					</div>
-					<div class="tab-pane fade" id="courses" role="tabpanel" aria-labelledby="profile-tab">
+					<div class="tab-pane fade" id="courses" role="tabpanel" aria-labelledby="courses-tab">
 						<ul class="list">
 							<li>
 								<span></span>
@@ -286,36 +271,41 @@
 	<!--================End My Tabs Area =================-->
 
 	<!--================Feature Area =================-->
-	<section class="feature_area p_120">
+	<section class="feature_area p_120" id="experience">
 		<div class="container">
 			<div class="main_title">
-				<h2>offerings to my clients</h2>
-				<p>If you are looking at blank cassettes on the web, you may be very confused at the difference in
-					price. You may see some for as low as $.17 each.</p>
+				<h2>Experiencia como desarrollador</h2>
 			</div>
 			<div class="feature_inner row">
 				<div class="col-lg-4 col-md-6">
 					<div class="feature_item">
-						<i class="flaticon-city"></i>
-						<h4>Architecture</h4>
-						<p>If you are looking at blank cassettes on the web, you may be very confused at the difference
-							in price. You may see some for as low as $17 each.</p>
+						<img src="img/experience/cucei_logo.png" alt="Cucei">
+						<h4>Proyectos de aplicación (CUCEI, 2017)</h4>
+						<p>Proyecto en el que se desarrolló un software para la medición de glóbulos blancos y rojos en
+							el cuerpo de un paciente. Producto de la investigación conjunta de estudiantes de las
+							carreras de
+							ingeniería en electrónica, ingeniería biomédica e ingeniería en computación y presentado en
+							el auditorio
+							Matute Remus de CUCEI.</p>
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-6">
 					<div class="feature_item">
-						<i class="flaticon-skyline"></i>
-						<h4>Interior Design</h4>
-						<p>If you are looking at blank cassettes on the web, you may be very confused at the difference
-							in price. You may see some for as low as $17 each.</p>
+						<img src="img/experience/graph.png" alt="Graph">
+						<h4>Proyecto de inteligencia artificial (Proyecto escolar, 2020)</h4>
+						<p>Aplicación de escritorio para obtener caminos óptimos en terrenos con obstáculos por medio de
+							algoritmos de búsqueda heurística como costo uniforme, voráz primero el mejor y A*.
+						</p>
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-6">
 					<div class="feature_item">
-						<i class="flaticon-sketch"></i>
-						<h4>Concept Design</h4>
-						<p>If you are looking at blank cassettes on the web, you may be very confused at the difference
-							in price. You may see some for as low as $17 each.</p>
+						<img src="img/experience/cisco_logo.png" alt="Cisco">
+						<h4>Cisco University Challenge (Cisco systems, 2020)</h4>
+						<p>Proyecto desarrollado para la división de supply chain de Cisco como parte de un reto, en el que
+							junto a un equipo, elaboramos un software para le gestión de incidentes en el área, en el
+							que es posible reportar y llevar un control de errores para encontrar una solución adecuada.
+						</p>
 					</div>
 				</div>
 			</div>
@@ -324,20 +314,11 @@
 	<!--================End Feature Area =================-->
 
 	<!--================Home Gallery Area =================-->
-	<section class="home_gallery_area p_120">
+	<section class="home_gallery_area p_120" id="last_project">
 		<div class="container">
 			<div class="main_title">
-				<h2>Our Latest Featured Projects</h2>
-				<p>Who are in extremely love with eco friendly system.</p>
-			</div>
-			<div class="isotope_fillter">
-				<ul class="gallery_filter list">
-					<li class="active" data-filter="*"><a href="#">All</a></li>
-					<li data-filter=".brand"><a href="#">Vector</a></li>
-					<li data-filter=".manipul"><a href="#">Raster</a></li>
-					<li data-filter=".creative"><a href="#">UI/UX</a></li>
-					<li data-filter=".design"><a href="#">Printing</a></li>
-				</ul>
+				<h2>Mi proyecto más reciente</h2>
+				<p>Capturas de mi experiencia de trabajo más reciente en Cisco</p>
 			</div>
 		</div>
 		<div class="container">
@@ -345,84 +326,42 @@
 				<div class="col-lg-4 col-md-4 col-sm-6 brand manipul design print">
 					<div class="h_gallery_item">
 						<div class="g_img_item">
-							<img class="img-fluid" src="img/gallery/project-1.jpg" alt="">
-							<a class="light" href="img/gallery/project-1.jpg"><img src="img/gallery/icon.png"
+							<img class="img-fluid" src="img/gallery/iJump.jpg" alt="">
+							<a class="light" href="img/gallery/iJump.jpg"><img src="img/gallery/icon.png"
 									alt=""></a>
 						</div>
 						<div class="g_item_text">
-							<h4>3D Helmet Design</h4>
-							<p>Client Project</p>
+							<h4>iJump team</h4>
+							<p>Mi equipo de desarrollo del proyecto</p>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-4 col-sm-6 brand manipul creative">
 					<div class="h_gallery_item">
 						<div class="g_img_item">
-							<img class="img-fluid" src="img/gallery/project-2.jpg" alt="">
-							<a class="light" href="img/gallery/project-2.jpg"><img src="img/gallery/icon.png"
+							<img class="img-fluid" src="img/gallery/all_teams.jpg" alt="">
+							<a class="light" href="img/gallery/all_teams.jpg"><img src="img/gallery/icon.png"
 									alt=""></a>
 						</div>
 						<div class="g_item_text">
-							<h4>2D Vinyl Design</h4>
-							<p>Client Project</p>
+							<h4>Equipos</h4>
+							<p>Todos los equipos que participaron en el Cisco Challenge</p>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-4 col-sm-6 manipul creative design print">
 					<div class="h_gallery_item">
 						<div class="g_img_item">
-							<img class="img-fluid" src="img/gallery/project-3.jpg" alt="">
-							<a class="light" href="img/gallery/project-3.jpg"><img src="img/gallery/icon.png"
+							<img class="img-fluid" src="img/gallery/conference.jpg" alt="">
+							<a class="light" href="img/gallery/conference.jpg"><img src="img/gallery/icon.png"
 									alt=""></a>
 						</div>
 						<div class="g_item_text">
-							<h4>Creative Poster Design</h4>
-							<p>Client Project</p>
+							<h4>Conferencia</h4>
+							<p>Plática acerca de Cisco como empresa y acerca de la problemática del proyecto</p>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-4 col-sm-6 brand creative print">
-					<div class="h_gallery_item">
-						<div class="g_img_item">
-							<img class="img-fluid" src="img/gallery/project-4.jpg" alt="">
-							<a class="light" href="img/gallery/project-4.jpg"><img src="img/gallery/icon.png"
-									alt=""></a>
-						</div>
-						<div class="g_item_text">
-							<h4>Embosed Logo Design</h4>
-							<p>Client Project</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-6 brand manipul design">
-					<div class="h_gallery_item">
-						<div class="g_img_item">
-							<img class="img-fluid" src="img/gallery/project-5.jpg" alt="">
-							<a class="light" href="img/gallery/project-5.jpg"><img src="img/gallery/icon.png"
-									alt=""></a>
-						</div>
-						<div class="g_item_text">
-							<h4>3D Disposable Bottle</h4>
-							<p>Client Project</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-6 brand creative">
-					<div class="h_gallery_item">
-						<div class="g_img_item">
-							<img class="img-fluid" src="img/gallery/project-6.jpg" alt="">
-							<a class="light" href="img/gallery/project-6.jpg"><img src="img/gallery/icon.png"
-									alt=""></a>
-						</div>
-						<div class="g_item_text">
-							<h4>3D Logo Design</h4>
-							<p>Client Project</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="more_btn">
-				<a class="main_btn" href="#">Load More Items</a>
 			</div>
 		</div>
 	</section>
